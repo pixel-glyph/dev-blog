@@ -58,6 +58,8 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      <a href="/server_mods_1.zip" download="server-mods-1">Click here for Mods!</a>
+      {/* <a href="/server_mods_2.zip" download="server-mods-2">Click here for more Mods!</a> */}
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

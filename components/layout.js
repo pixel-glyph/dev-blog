@@ -58,8 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/open-parties-and-claims-forge-1.19.2-0.20.1.jar" download="opac">Open Parties</a>
-      <a href="/Searchables-forge-1.19.2-1.0.2.jar" download="searchables">Searchables</a>
+      <a href="/Necronomicon-Forge-1.0.8.jar" download="necro">Necro</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

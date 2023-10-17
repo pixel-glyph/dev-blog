@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/Necronomicon-Forge-1.0.8.jar" download="necro">Necro</a>
+      <a href="/forge-1.19.2-43.3.0-installer.jar" download="forge">Forge</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

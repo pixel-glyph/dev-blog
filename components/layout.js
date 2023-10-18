@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/forge-1.19.2-43.3.0-installer.jar" download="forge">Forge</a>
+      <a href="/RealisticTorches-1.19.2-3.1.5.jar" download="RT">Torches</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/RealisticTorches-1.19.2-3.1.5.jar" download="RT">Torches</a>
+      <a href="/starlight-1.1.1+forge.cf5b10b.jar" download="Strlght">Stars</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

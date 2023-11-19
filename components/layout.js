@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/dankstorage-1.19.2-5.1.6.jar" download="Strlght">Dank</a>
+      <a href="/buildinggadgets-3.16.2-build.22+mc1.19.2.jar" download="Strlght">Dank</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

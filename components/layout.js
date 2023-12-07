@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/buildinggadgets-3.16.2-build.22+mc1.19.2.jar" download="Strlght">Dank</a>
+      <a href="/SoL-Carrot-1.19.2-1.14.0.jar" download="SoL">Spice of Life</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

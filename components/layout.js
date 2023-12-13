@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/SoL-Carrot-1.19.2-1.14.0.jar" download="SoL">Spice of Life</a>
+      <a href="/CraftTweaker-forge-1.19.2-10.1.52.jar" download="SoL">Spice of Life</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/CraftTweaker-forge-1.19.2-10.1.52.jar" download="SoL">Spice of Life</a>
+      <a href="/light-overlay-7.0.1-forge.jar" download="LO">Light Overlay</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

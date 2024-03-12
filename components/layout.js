@@ -46,7 +46,7 @@ export default function Layout({ children, home }) {
                 src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
-                width={108}
+                width={108} 
                 alt=""
               />
             </Link>
@@ -58,7 +58,9 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/light-overlay-7.0.1-forge.jar" download="LO">Light Overlay</a>
+      <a href="/SolarFluxReborn-1.19.2-19.3.10.jar" download="LO">Solar Flux</a>
+      <a href="/StorageDrawers-1.19-11.1.2.jar" download="LO">Storage Drawers</a>
+      <a href="/theoneprobe-1.19-6.2.2.jar" download="LO">One Probe</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

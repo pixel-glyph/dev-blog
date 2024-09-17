@@ -58,7 +58,10 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/HammerLib-1.19.2-19.3.76.jar" download="LO">HammerLib</a>
+      <a href="/Archive 2.zip" download="Mods2">mods</a>
+      <a href="/Archive.zip" download="Mods1">more mods</a>
+      <a href="/config.zip" download="config">config</a>
+      <a href="/serverconfig.zip" download="serverconfig">server config</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

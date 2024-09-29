@@ -58,11 +58,8 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/Quark-3.4-418.jar" download="Quark">Quark</a>
-      <a href="/AutoRegLib-1.8.2-55.jar" download="ARLib">ARLib</a>
-      <a href="/JeiTweaker-forge-1.19.2-4.0.13.jar" download="JEIT">JEI Tweaker</a>
-      <a href="/majrusz-library-forge-1.19.2-7.0.5-backport.1.jar" download="prog_diff_dep">prog diff dep</a>
-      <a href="/majruszs-difficulty-forge-1.19.2-1.9.9-backport.1.jar" download="prog_diff">prog diff</a>
+      <a href="/config.zip" download="Quark">Quark</a>
+      <a href="/tweaks.zs" download="ARLib">ARLib</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

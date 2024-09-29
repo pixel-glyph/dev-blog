@@ -58,10 +58,11 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <a href="/Archive 2.zip" download="Mods2">mods</a>
-      <a href="/Archive.zip" download="Mods1">more mods</a>
-      <a href="/config.zip" download="config">config</a>
-      <a href="/serverconfig.zip" download="serverconfig">server config</a>
+      <a href="/Quark-3.4-418.jar" download="Quark">Quark</a>
+      <a href="/AutoRegLib-1.8.2-55.jar" download="ARLib">ARLib</a>
+      <a href="/JeiTweaker-forge-1.19.2-4.0.13.jar" download="JEIT">JEI Tweaker</a>
+      <a href="/majrusz-library-forge-1.19.2-7.0.5-backport.1.jar" download="prog_diff_dep">prog diff dep</a>
+      <a href="/majruszs-difficulty-forge-1.19.2-1.9.9-backport.1.jar" download="prog_diff">prog diff</a>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
